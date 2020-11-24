@@ -3,7 +3,6 @@
 @section('content')
 
 <main class="main">
-    @include('_layouts.banner')
     <div class="flex py-12 bg-white">
         <div class="container flex flex-col items-center justify-center px-4 pt-2 pb-8 mx-auto sm:px-6 lg:px-8">
             <p
@@ -32,12 +31,17 @@
                     <div class="flex flex-col justify-between flex-1">
                         <div class="flex flex-col justify-between flex-1 p-6 bg-white">
                             <div>
-                                <a href="/sales" class="block text-xl font-semibold leading-7 text-gray-900">Sales Manager</a>
+                                <a href="/sales" class="block text-xl font-semibold leading-7 text-gray-900">Sales
+                                    Manager</a>
                                 <p class="mt-3 text-base leading-6 text-gray-500">
-                                    Our growing company is seeking to hire a Sales Manager who will be responsible for supervising and organizing our sales
-                                    team. You will be in charge of managing organizational sales by developing business plans, meeting planned goals, and
-                                    coordinating with our marketing department on lead generation. You will also be tasked with overseeing the activities
-                                    and performance of your sales team by tracking sales goals, setting individual sales targets, and facilitate the ongoing
+                                    Our growing company is seeking to hire a Sales Manager who will be responsible for
+                                    supervising and organizing our sales
+                                    team. You will be in charge of managing organizational sales by developing business
+                                    plans, meeting planned goals, and
+                                    coordinating with our marketing department on lead generation. You will also be tasked
+                                    with overseeing the activities
+                                    and performance of your sales team by tracking sales goals, setting individual sales
+                                    targets, and facilitate the ongoing
                                     training of your salespeople.
                                 </p>
                             </div>
@@ -51,9 +55,7 @@
                         <div class="flex items-center p-6 bg-gray-100">
                             <div class="flex-shrink-0">
                                 <a href="#">
-                                    <img class="w-10 h-10 rounded-full"
-                                        src="/assets/img/avatar.svg"
-                                        alt="logo" />
+                                    <img class="w-10 h-10 rounded-full" src="/assets/img/avatar.svg" alt="logo" />
                                 </a>
                             </div>
                             <div class="ml-3">
@@ -69,7 +71,8 @@
                 </div>
                 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                     <div class="relative flex-shrink-0">
-                        <div class="object-cover w-full h-56 font-extrabold text-center text-white bg-blue-200">ABC Company</div>
+                        <div class="object-cover w-full h-56 font-extrabold text-center text-white bg-blue-200">ABC Company
+                        </div>
                         <span
                             class="absolute bottom-0 right-0 inline-flex items-center px-3 py-1 mr-4 -mb-3 text-xs font-medium leading-tight text-gray-800 bg-gray-100 border rounded-full">
                             Status: Open</span>
@@ -80,9 +83,12 @@
                                 <a href="/accountant" class="block text-xl font-semibold leading-7 text-gray-900">
                                     Account Manager</a>
                                 <p class="mt-3 text-base leading-6 text-gray-500">
-                                    We are looking for a master multi-tasker with excellent communication skills and an upbeat attitude. Candidates should
-                                    be able to assist management and all visitors to the company by handling office tasks, providing polite and professional
-                                    assistance via phone, mail, and e-mail, making reservations or travel arrangements, and generally being a helpful and
+                                    We are looking for a master multi-tasker with excellent communication skills and an
+                                    upbeat attitude. Candidates should
+                                    be able to assist management and all visitors to the company by handling office tasks,
+                                    providing polite and professional
+                                    assistance via phone, mail, and e-mail, making reservations or travel arrangements, and
+                                    generally being a helpful and
                                     positive presence in the workplace.</p>
                             </div>
                             <p class="mt-3 text-sm font-medium leading-5">
@@ -95,9 +101,7 @@
                         <div class="flex items-center p-6 bg-gray-100">
                             <div class="flex-shrink-0">
                                 <a href="#">
-                                    <img class="w-10 h-10 rounded-full"
-                                        src="/assets/img/avatar.svg"
-                                        alt="logo" />
+                                    <img class="w-10 h-10 rounded-full" src="/assets/img/avatar.svg" alt="logo" />
                                 </a>
                             </div>
                             <div class="ml-3">
@@ -113,7 +117,8 @@
                 </div>
                 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                     <div class="relative flex-shrink-0">
-                        <div class="object-cover w-full h-56 font-extrabold text-center text-white bg-indigo-200">Demo Company</div>
+                        <div class="object-cover w-full h-56 font-extrabold text-center text-white bg-indigo-200">Demo
+                            Company</div>
                         <span
                             class="absolute bottom-0 right-0 inline-flex items-center px-3 py-1 mr-4 -mb-3 text-xs font-medium leading-tight text-gray-800 bg-gray-100 border rounded-full">
                             Status: Open</span>
@@ -121,10 +126,13 @@
                     <div class="flex flex-col justify-between flex-1">
                         <div class="flex flex-col justify-between flex-1 p-6 bg-white">
                             <div>
-                                <a href="/demo" class="text-xl font-semibold leading-7 text-gray-900">Data Entry Executive</a>
-                                <p class="mt-3 text-base leading-6 text-gray-500">We are looking for a Data Entry Executive to type information into our database from paper documents. The ideal candidate
-                                will be computer savvy and a fast typist with a keen eye for detail. You will report to a data manager or another senior
-                                data team member. Understanding of data confidentiality principles is compulsory.</p>
+                                <a href="/demo" class="text-xl font-semibold leading-7 text-gray-900">Data Entry
+                                    Executive</a>
+                                <p class="mt-3 text-base leading-6 text-gray-500">We are looking for a Data Entry Executive
+                                    to type information into our database from paper documents. The ideal candidate
+                                    will be computer savvy and a fast typist with a keen eye for detail. You will report to
+                                    a data manager or another senior
+                                    data team member. Understanding of data confidentiality principles is compulsory.</p>
                             </div>
                             <p class="mt-4 text-sm font-medium leading-5">
                                 <a href="#" class="inline-block">
@@ -141,9 +149,7 @@
                         <div class="flex items-center p-6 bg-gray-100">
                             <div class="flex-shrink-0">
                                 <a href="#">
-                                    <img class="w-10 h-10 rounded-full"
-                                        src="/assets/img/avatar.svg"
-                                        alt="logo" />
+                                    <img class="w-10 h-10 rounded-full" src="/assets/img/avatar.svg" alt="logo" />
                                 </a>
                             </div>
                             <div class="ml-3">

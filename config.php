@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
-    'siteTitle' => 'Jigsaw + Tailwind CSS Starter Kit',
+    'baseUrl' => 'https://janakpurjob.com',
+    'siteTitle' => 'Janakpur Job',
     'collections' => [],
 ];
